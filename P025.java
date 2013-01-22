@@ -1,4 +1,5 @@
 //Question: will this compile?
+//     and: how about with the annotation?
 public class P025
 {
   public static void main(String[] argv)
@@ -14,9 +15,19 @@ public class P025
 
 class Child extends P025
 {
-  @Override
+//  @Override
   public void aMethod()
   {
     System.out.println("attempting to override a private  method");
   }
 }
+
+
+
+
+
+
+
+
+//Answer: It will compile without the @Override annotation, because private methods
+//    cannot be overridden, but they can be redefined in a child class
