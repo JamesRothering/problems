@@ -1,4 +1,5 @@
-problems
+Problems
 ========
 
-These are example problems for use with the SciCo application as test entries.
+These example problems are test data to be entered into the SciCo application.
+
