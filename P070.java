@@ -1,5 +1,6 @@
 //Q: Will this compile?
 
+
 class P070
 {
   static int i;
